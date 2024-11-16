@@ -1,73 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
 body {
-    min-height: 100vh; 
-    background-color: #f4f4f4;
-    text-align: center;
+  min-height: 100vh;
+  background-color: #f4f4f4;
+  text-align: center;
+  font-family: "EB Garamond", serif;
 }
 
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    background-color: #dddddd;
-    width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #dddddd;
+  width: 100%;
 }
 
 li {
-    float: left;
+  float: left;
 }
 
 a {
-    display: block;
-    padding: 8px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+  display: block;
+  padding: 8px;
 }
 
 .profile {
-    margin: auto;
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-    padding: 20px;
-    text-align: center;
-    max-width: 500px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    margin-top: 100px;
+  margin: auto;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  text-align: center;
+  max-width: 500px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-top: 100px;
 }
 
 .info {
-    text-align: left;
-    flex: 1;
-    align-items: center;
-    margin-left: 10px;
+  text-align: left;
+  flex: 1;
+  align-items: center;
+  margin-left: 10px;
 }
 
 .profile-picture {
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
-    margin-right: 20px;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-right: 20px;
 }
 
 .name {
-    margin-bottom: 10px;
-    font-size: 20px;
-    font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .bio {
-    margin-top: 10px;
-    font-size: 16px;
-    color: #3f3f3f;
+  margin-top: 10px;
+  font-size: 16px;
+  color: #3f3f3f;
 }
 
 .links {
-    justify-content: center;
-    padding-left: 135px;
+  justify-content: center;
+  padding-left: 135px;
 }
 
 .projects {
-    margin-top: 30px;
+  margin-top: 30px;
 }
